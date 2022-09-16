@@ -16,7 +16,8 @@ router.get('/', (req, res) => {
         cuisines: 'Coffee, Bakery',
         pic: 'https://as1.ftcdn.net/v2/jpg/02/50/35/12/1000_F_250351248_CX51XrhDNJREgyrX8wKwdpXiu9YOhJmk.jpg'
       }]      
-    res.render('places/index', {places})
+    res.render('places/new', {places})
+    
 })
 
 module.exports = router
