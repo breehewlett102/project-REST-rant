@@ -1,5 +1,5 @@
-const React = require('react')
-const Def = require('../default')
+const React = require('react');
+const Def = require('../default');
 
 function new_form () {
     return (
@@ -22,6 +22,10 @@ function new_form () {
               <div className="form-group">
                 <label htmlFor="state">State</label>
                 <input className="form-control" id="state" name="state" />
+              </div>
+              <div className="form-group">
+                <label for="founded">Founded Year</label>
+                <input className="form-control" id="founded" name="founded" />
               </div>
               <div className="form-group">
                 <label htmlFor="cuisines">Cuisines</label>
